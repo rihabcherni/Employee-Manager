@@ -28,5 +28,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Ensure you are using the following versions of Node.js and npm for compatibility:
 
-- **Node.js version**: [Insert Node.js version here]
-- **npm version**: [Insert npm version here]
+- **Node.js version**: v20.11.0
+- **npm version**: 10.2.4
