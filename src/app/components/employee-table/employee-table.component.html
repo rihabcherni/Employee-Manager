@@ -1,0 +1,35 @@
+<div class="employee-table-container">
+  <div class="table-box">
+    <table class="employee-table">
+      <thead>
+        <tr>
+          <th *ngFor="let column of columns" (click)="onSort(column.key)">
+            {{ column.label }}
+            <span class="sort-icon" *ngIf="sortedColumn === column.key">
+              <i [class]="isAsc ? 'fas fa-sort-up' : 'fas fa-sort-down'"></i>
+            </span>
+            <span *ngIf="sortedColumn !== column.key">
+              <i class="fas fa-sort"></i>
+            </span>
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngFor="let employee of employees">
+          <td *ngFor="let column of columns">{{ employee[column.key] }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="pagination">
+    <button class="pagination-btn" (click)="onPageChange(page - 1)" [disabled]="page <= 1">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+    <span>Page {{ page }} of {{ getTotalPages() }}</span>
+    <button class="pagination-btn" (click)="onPageChange(page + 1)" [disabled]="page >= getTotalPages()">
+      <i class="fas fa-chevron-right"></i>
+    </button>  
+  </div>
+</div>
