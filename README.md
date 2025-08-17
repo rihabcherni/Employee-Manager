@@ -22,7 +22,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 A preview of the application:
 
 <p align="center">
-  <img src="screenshot.PNG" alt="Employee Table Screenshot" width="60%">
+  <img src="screenshot.PNG" alt="Employee Table Screenshot" width="90%">
 </p>
 
 ## Getting Started
@@ -65,3 +65,4 @@ Make sure you have the following installed:
 - HTML5 & CSS3
 - TypeScript
 - REST API integration
+
