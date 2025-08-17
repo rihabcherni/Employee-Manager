@@ -1,4 +1,4 @@
-# EmployeeTable
+# Employee Manager
 
 An Angular application to display and manage a list of employees fetched from a remote API.
 
@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Project Overview
 
-**EmployeeTable** fetches employee data from a remote API and displays it in a clean, interactive table with pagination, sorting, and responsive design. It is designed for simplicity and usability across devices.
+**Employee Manager** fetches employee data from a remote API and displays it in a clean, interactive table with pagination, sorting, and responsive design. It is designed for simplicity and usability across devices.
 
 **API URL:** [https://retoolapi.dev/HYd96h/data](https://retoolapi.dev/HYd96h/data)
 
@@ -65,4 +65,5 @@ Make sure you have the following installed:
 - HTML5 & CSS3
 - TypeScript
 - REST API integration
+
 
